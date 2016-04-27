@@ -2,8 +2,19 @@ body {
     background-color: #cd6600;
 }
 
-* {
+.page-header {
+  text-align: center;
+}
+
+#demo {
+  text-align: center;
+}
+
+#buttons {
   margin: auto;
-  width: 100%;
+  width: 10%;
+}
+
+* {
   font-family: "Trebuchet MS";
 }
