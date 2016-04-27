@@ -1,0 +1,9 @@
+body {
+    background-color: #cd6600;
+}
+
+* {
+  margin: auto;
+  width: 100%;
+  font-family: "Trebuchet MS";
+}
