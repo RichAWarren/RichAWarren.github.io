@@ -55,6 +55,8 @@ img {
   width:100%;
   height: auto;
   vertical-align:bottom;
+  -webkit-transition: width 0.5s; /* Safari */
+  transition: width 0.5s;
 }
 
 img:hover {
@@ -63,6 +65,7 @@ img:hover {
   height: auto;
   -webkit-transition: width 0.5s; /* Safari */
   transition: width 0.5s;
+  z-index: 999;
 }
 
 .lefthover {
@@ -72,7 +75,7 @@ img:hover {
   width:212.5% !important;
   height:auto;
   display:block;
-  z-index:2;
+  z-index: 999;
 }
 
 .righthover {
@@ -83,7 +86,7 @@ img:hover {
   width:212.5% !important;
   height:auto;
   display:block;
-  z-index:2;
+  z-index: 999;
 }
 
 .centerhover {
@@ -92,7 +95,7 @@ img:hover {
   width:189% !important;
   height:auto;
   display:block;
-  z-index:2;
+  z-index: 999;
 }
 
 .leftPhoto:hover {
