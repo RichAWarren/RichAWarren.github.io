@@ -61,7 +61,8 @@ img:hover {
   cursor:pointer;
   width: 105%;
   height: auto;
-  overflow: hidden;
+  -webkit-transition: width 0.5s; /* Safari */
+  transition: width 0.5s;
 }
 
 .lefthover {
